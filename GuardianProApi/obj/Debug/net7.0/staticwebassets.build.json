@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Yw6ZeiSiFCCo9BATtfIi+SEVWlmk/KTcBhF9wc3N6rw=",
+  "Source": "GuardianProApi",
+  "BasePath": "_content/GuardianProApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

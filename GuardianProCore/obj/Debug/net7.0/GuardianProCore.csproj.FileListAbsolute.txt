@@ -1,0 +1,12 @@
+/home/user/RiderProjects/GuardianPro/GuardianProCore/bin/Debug/net7.0/GuardianProCore.deps.json
+/home/user/RiderProjects/GuardianPro/GuardianProCore/bin/Debug/net7.0/GuardianProCore.dll
+/home/user/RiderProjects/GuardianPro/GuardianProCore/bin/Debug/net7.0/GuardianProCore.pdb
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/GuardianProCore.csproj.AssemblyReference.cache
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/GuardianProCore.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/GuardianProCore.AssemblyInfoInputs.cache
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/GuardianProCore.AssemblyInfo.cs
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/GuardianProCore.csproj.CoreCompileInputs.cache
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/GuardianProCore.dll
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/refint/GuardianProCore.dll
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/GuardianProCore.pdb
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/ref/GuardianProCore.dll
