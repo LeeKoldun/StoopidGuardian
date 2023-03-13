@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProApi", "GuardianP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProCore", "GuardianProCore\GuardianProCore.csproj", "{12A81858-AB26-495F-877D-0516BD4BD816}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProWebServices", "GuardianProWebServices\GuardianProWebServices.csproj", "{98534457-0C69-4345-B6EC-E0488D5332F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{12A81858-AB26-495F-877D-0516BD4BD816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12A81858-AB26-495F-877D-0516BD4BD816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12A81858-AB26-495F-877D-0516BD4BD816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98534457-0C69-4345-B6EC-E0488D5332F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98534457-0C69-4345-B6EC-E0488D5332F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98534457-0C69-4345-B6EC-E0488D5332F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98534457-0C69-4345-B6EC-E0488D5332F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

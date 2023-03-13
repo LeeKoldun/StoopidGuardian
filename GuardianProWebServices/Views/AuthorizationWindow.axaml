@@ -1,0 +1,49 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:GuardianProWebServices.ViewModels"
+        mc:Ignorable="d"
+        MinWidth="500" MinHeight="600"
+        x:Class="GuardianProWebServices.Views.AuthorizationWindow"
+        Title="AuthorizationWindow">
+        
+        <Design.DataContext>
+                <vm:AuthorizationVM/>
+        </Design.DataContext>
+        
+        <Grid>
+                <StackPanel HorizontalAlignment="Center"
+                            VerticalAlignment="Center"
+                            Spacing="10">
+                        <TextBlock Text="Авторизация"
+                                   Margin="80 20"/>
+                        
+                        <Label Content="Логин:"/>
+                        <TextBox/>
+                        
+                        <Label Content="Пароль:"/>
+                        <TextBox/>
+                        
+                        <TextBlock IsVisible="False"
+                                   Foreground="Red"
+                                   Text="{Binding ErrorMsg}"/>
+                        
+                        <Button HorizontalAlignment="Center"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                Width="200"
+                                Height="50"
+                                Content="Войти"
+                                Margin="0 20 0 50"/>
+                        
+                        <Button HorizontalAlignment="Center"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                Width="200"
+                                Height="40"
+                                Content="Создать новый аккаунт"/>
+                </StackPanel>
+        </Grid>
+        
+</Window>

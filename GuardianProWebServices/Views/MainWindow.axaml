@@ -1,0 +1,78 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:GuardianProWebServices.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" 
+        MinWidth="800" MinHeight="500"
+        x:Class="GuardianProWebServices.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="GuardianProWebServices">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <Grid>
+        <DockPanel Dock="Top"
+                   VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Left"
+                        Spacing="10"
+                        Margin="10">
+                <Image Source="/Assets/avalonia-logo.ico"
+                       Width="50"/>
+                <TextBlock Text="Стражник Про"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+            
+                <Button HorizontalAlignment="Right"
+                        Margin="10"
+                        CornerRadius="50">
+                    <Image Source="/Assets/User.jpg" 
+                           Width="50">
+                        <Image.Clip>
+                            <EllipseGeometry RadiusX="20"
+                                             RadiusY="20"
+                                             Center="25 20"/>
+                        </Image.Clip>
+                    </Image>
+                </Button>
+        </DockPanel>
+        
+        <StackPanel Orientation="Horizontal" 
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Spacing="30">
+            <Button Width="200"
+                    Height="200"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Command="{Binding ToSinglePassRequest}">
+                <StackPanel Spacing="20">
+                    <Image Source="/Assets/avalonia-logo.ico"
+                           Width="100"
+                           Height="100"/>
+                    <TextBlock Text="Личное посещение"/>
+                </StackPanel>
+            </Button>
+            
+            <Button Width="200"
+                    Height="200"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Command="{Binding ToGroupPassRequest}">
+                <StackPanel Spacing="20">
+                    <Image Source="/Assets/avalonia-logo.ico"
+                           Width="100"
+                           Height="100"/>
+                    <TextBlock Text="Групповое посещение"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+    </Grid>
+    
+</Window>

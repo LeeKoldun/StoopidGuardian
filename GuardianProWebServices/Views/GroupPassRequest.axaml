@@ -1,0 +1,161 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        MinWidth="900" MinHeight="600"
+        x:Class="GuardianProWebServices.Views.GroupPassRequest"
+        Title="GroupPassRequest">
+        <Grid>
+        <DockPanel Dock="Top"
+                   VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Left"
+                        Spacing="10"
+                        Margin="10">
+                <Image Source="/Assets/avalonia-logo.ico"
+                       Width="50"/>
+                <TextBlock Text="Стражник Про"
+                           VerticalAlignment="Center"/>
+            </StackPanel>
+            
+            <Button HorizontalAlignment="Right"
+                    Margin="10"
+                    CornerRadius="50">
+                <Image Source="/Assets/User.jpg" 
+                       Width="50">
+                    <Image.Clip>
+                        <EllipseGeometry RadiusX="20"
+                                         RadiusY="20"
+                                         Center="25 20"/>
+                    </Image.Clip>
+                </Image>
+            </Button>
+        </DockPanel>
+        
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Spacing="20">
+            <TextBlock Text="Форма записи на посещение мероприятия"
+                       HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Center"
+                        Spacing="30">
+                
+                <StackPanel>
+                    <TextBlock Text="Информация для пропуска"
+                               Margin="0 0 0 10"/>
+                    <TextBlock Text="Срок действия заявки"/>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="С*"/>
+                        <CalendarDatePicker/>
+                        <TextBlock Text="По"/>
+                        <CalendarDatePicker/>
+                    </StackPanel>
+                    <TextBlock Text="Цель посещения"/>
+                    <ComboBox Width="300"/>
+                </StackPanel>
+                
+                <StackPanel>
+                    <TextBlock Text="Принимающая сторона"
+                               Margin="0 0 0 10"/>
+                    <TextBlock Text="Цель посещения"/>
+                    <ComboBox Width="300"
+                              Margin="0 0 0 10"/>
+                    <TextBlock Text="Цель посещения"/>
+                    <ComboBox Width="300"/>
+                </StackPanel>
+                
+            </StackPanel>
+            
+            <Grid ColumnDefinitions="2* 2* 1*"
+                  RowDefinitions="1* 4*">
+                <TextBlock Text="Информация о посетителе"
+                           HorizontalAlignment="Center"
+                           Grid.ColumnSpan="3"
+                           Margin="0 0 0 20"/>
+                <Grid Grid.Row="1"
+                      ColumnDefinitions="* *"
+                      RowDefinitions="* * * * *"
+                      Margin="10">
+                    <TextBlock Text="Фамилия*"/>
+                    <TextBox Grid.Column="1"/>
+                    
+                    <TextBlock Grid.Row="1" 
+                        Text="Имя*"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="1"/>
+
+                    <TextBlock Grid.Row="2" 
+                        Text="Отчество*"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="2"/>
+                    
+                    <TextBlock Grid.Row="3" 
+                               Text="Телефон"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="3"/>
+                    
+                    <TextBlock Grid.Row="4"
+                               Text="E-mail"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="4"/>
+                </Grid>
+                
+                <Grid Grid.Row="1"
+                      Grid.Column="1"
+                      ColumnDefinitions="* *"
+                      RowDefinitions="* * * * *"
+                      Margin="10">
+                    <TextBlock Text="Организация"/>
+                    <TextBox Grid.Column="1"/>
+                    
+                    <TextBlock Grid.Row="1" 
+                               Text="Примечание"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="1"/>
+
+                    <TextBlock Grid.Row="2" 
+                               Text="Дата рождения"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="2"/>
+                    
+                    <TextBlock Grid.Row="3" 
+                               Text="Серия"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="3"/>
+                    
+                    <TextBlock Grid.Row="4"
+                               Text="Номер"/>
+                    <TextBox Grid.Column="1"
+                             Grid.Row="4"/>
+                </Grid>
+                
+                <StackPanel Grid.Column="2"
+                            Grid.Row="1"
+                            HorizontalAlignment="Center"
+                            VerticalAlignment="Center">
+                    <TextBlock Text="Список посетителей"/>
+                </StackPanel>
+            </Grid>
+            
+            <Grid>
+                
+                <StackPanel HorizontalAlignment="Left">
+                    <TextBlock Text="Прикрепляемые документы"
+                               Margin="0 0 0 10"/>
+                    <Button Content="Прикрепить файл"/>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal" 
+                    HorizontalAlignment="Right"
+                    Spacing="20">
+                    <Button Content="Очистить форму"/>
+                    <Button Content="Оформить заявку"/>
+                </StackPanel>
+                
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

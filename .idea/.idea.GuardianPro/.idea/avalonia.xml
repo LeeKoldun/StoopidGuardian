@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="GuardianProWebService/Views/MainWindow.axaml" value="GuardianProWebService/GuardianProWebService.csproj" />
+        <entry key="GuardianProWebServices/Styles/Default.axaml" value="GuardianProWebServices/GuardianProWebServices.csproj" />
+        <entry key="GuardianProWebServices/Styles/Form.axaml" value="GuardianProWebServices/GuardianProWebServices.csproj" />
+        <entry key="GuardianProWebServices/Views/AuthorizationWindow.axaml" value="GuardianProWebServices/GuardianProWebServices.csproj" />
+        <entry key="GuardianProWebServices/Views/GroupPassRequest.axaml" value="GuardianProWebServices/GuardianProWebServices.csproj" />
+        <entry key="GuardianProWebServices/Views/MainWindow.axaml" value="GuardianProWebServices/GuardianProWebServices.csproj" />
+        <entry key="GuardianProWebServices/Views/SinglePassRequestWindow.axaml" value="GuardianProWebServices/GuardianProWebServices.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
