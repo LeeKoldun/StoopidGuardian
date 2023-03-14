@@ -114,32 +114,4 @@ public class SingleRequestVM : ViewModelBase
         get => errorMsg;
         set => this.RaiseAndSetIfChanged(ref errorMsg, value);
     }
-
-    public void Test()
-    {
-        TimeSpan[] times =
-        {
-            new TimeSpan(10, 0, 0),
-            new TimeSpan(11, 0, 0),
-            new TimeSpan(15, 0, 0),
-            new TimeSpan(15, 30, 0),
-            new TimeSpan(16, 50, 0)
-        };
-
-        int[] durations =
-        {
-            60,
-            30,
-            10,
-            10,
-            40
-        };
-
-        TimeSpan start = new TimeSpan(8, 0, 0);
-        TimeSpan end = new TimeSpan(18, 0, 0);
-
-        int consTime = 30;
-
-        ErrorMsg = Calculations.AvailablePeriods(times, durations, start, end, consTime).ToString();
-    }
 }

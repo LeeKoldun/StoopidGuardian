@@ -148,8 +148,7 @@
                             HorizontalContentAlignment="Center"
                             Width="100"
                             Content="Загрузить фото"
-                            FontSize="10"
-                            Command="{Binding Test}"/>
+                            FontSize="10"/>
                 </StackPanel>
             </Grid>
             
