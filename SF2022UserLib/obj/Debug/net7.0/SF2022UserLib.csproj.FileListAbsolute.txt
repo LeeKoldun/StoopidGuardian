@@ -1,0 +1,12 @@
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/bin/Debug/net7.0/SF2022UserLib.deps.json
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/bin/Debug/net7.0/SF2022UserLib.dll
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/bin/Debug/net7.0/SF2022UserLib.pdb
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/SF2022UserLib.csproj.AssemblyReference.cache
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/SF2022UserLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/SF2022UserLib.AssemblyInfoInputs.cache
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/SF2022UserLib.AssemblyInfo.cs
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/SF2022UserLib.csproj.CoreCompileInputs.cache
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/SF2022UserLib.dll
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/refint/SF2022UserLib.dll
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/SF2022UserLib.pdb
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/ref/SF2022UserLib.dll
