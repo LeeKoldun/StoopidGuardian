@@ -131,3 +131,8 @@
 /home/user/RiderProjects/GuardianPro/GuardianProWebServices/obj/Debug/net7.0/GuardianProWebServices.pdb
 /home/user/RiderProjects/GuardianPro/GuardianProWebServices/obj/Debug/net7.0/GuardianProWebServices.genruntimeconfig.cache
 /home/user/RiderProjects/GuardianPro/GuardianProWebServices/obj/Debug/net7.0/ref/GuardianProWebServices.dll
+/home/user/RiderProjects/GuardianPro/GuardianProWebServices/bin/Debug/net7.0/Newtonsoft.Json.dll
+/home/user/RiderProjects/GuardianPro/GuardianProWebServices/bin/Debug/net7.0/GuardianProCore.dll
+/home/user/RiderProjects/GuardianPro/GuardianProWebServices/bin/Debug/net7.0/GuardianProCore.pdb
+/home/user/RiderProjects/GuardianPro/GuardianProWebServices/bin/Debug/net7.0/SF2022UserLib.dll
+/home/user/RiderProjects/GuardianPro/GuardianProWebServices/bin/Debug/net7.0/SF2022UserLib.pdb

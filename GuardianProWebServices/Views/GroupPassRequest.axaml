@@ -2,11 +2,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:GuardianProWebServices.ViewModels"
         mc:Ignorable="d"
         MinWidth="900" MinHeight="600"
         x:Class="GuardianProWebServices.Views.GroupPassRequest"
         Title="GroupPassRequest">
-        <Grid>
+    
+    <Design.DataContext>
+        <vm:GroupRequestVM/>
+    </Design.DataContext>
+    
+    <Grid>
         <DockPanel Dock="Top"
                    VerticalAlignment="Top">
             <StackPanel Orientation="Horizontal"
@@ -43,9 +49,8 @@
                         HorizontalAlignment="Center"
                         Spacing="30">
                 
-                <StackPanel>
-                    <TextBlock Text="Информация для пропуска"
-                               Margin="0 0 0 10"/>
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Информация для пропуска"/>
                     <TextBlock Text="Срок действия заявки"/>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="С*"/>
@@ -57,12 +62,10 @@
                     <ComboBox Width="300"/>
                 </StackPanel>
                 
-                <StackPanel>
-                    <TextBlock Text="Принимающая сторона"
-                               Margin="0 0 0 10"/>
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Принимающая сторона"/>
                     <TextBlock Text="Цель посещения"/>
-                    <ComboBox Width="300"
-                              Margin="0 0 0 10"/>
+                    <ComboBox Width="300"/>
                     <TextBlock Text="Цель посещения"/>
                     <ComboBox Width="300"/>
                 </StackPanel>

@@ -1,17 +1,18 @@
 using GuardianProApi.DB;
-using GuardianProApi.DB.Tables;
+using GuardianProCore.Tables;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
 namespace GuardianProApi.Controllers;
 
-[Route("api/[controller]")]
+[Route("Api/[controller]")]
 [ApiController]
-public class Visitors
+public class Visitor
 {
+    [Route("GetAll")]
     [HttpGet]
-    public string GetVisitors()
+    public async Task<string> GetVisitors()
     {
         string result;
         using (var db = new ContextDB())

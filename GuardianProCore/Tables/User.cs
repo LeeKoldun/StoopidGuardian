@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GuardianProApi.DB.Tables;
+namespace GuardianProCore.Tables;
 
 public class User
 {
@@ -13,5 +13,5 @@ public class User
     public int IdRole { get; set; }
     
     [ForeignKey("IdRole")] 
-    public Role Role { get; set; }
+    public virtual Role Role { get; set; }
 }

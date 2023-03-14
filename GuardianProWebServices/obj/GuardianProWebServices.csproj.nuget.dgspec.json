@@ -4,6 +4,65 @@
     "/home/user/RiderProjects/GuardianPro/GuardianProWebServices/GuardianProWebServices.csproj": {}
   },
   "projects": {
+    "/home/user/RiderProjects/GuardianPro/GuardianProCore/GuardianProCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/RiderProjects/GuardianPro/GuardianProCore/GuardianProCore.csproj",
+        "projectName": "GuardianProCore",
+        "projectPath": "/home/user/RiderProjects/GuardianPro/GuardianProCore/GuardianProCore.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/user/RiderProjects/GuardianPro/GuardianProWebServices/GuardianProWebServices.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +84,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/user/RiderProjects/GuardianPro/GuardianProCore/GuardianProCore.csproj": {
+                "projectPath": "/home/user/RiderProjects/GuardianPro/GuardianProCore/GuardianProCore.csproj"
+              },
+              "/home/user/RiderProjects/GuardianPro/SF2022UserLib/SF2022UserLib.csproj": {
+                "projectPath": "/home/user/RiderProjects/GuardianPro/SF2022UserLib/SF2022UserLib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +125,59 @@
               "version": "[1.6.1, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/user/RiderProjects/GuardianPro/SF2022UserLib/SF2022UserLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/RiderProjects/GuardianPro/SF2022UserLib/SF2022UserLib.csproj",
+        "projectName": "SF2022UserLib",
+        "projectPath": "/home/user/RiderProjects/GuardianPro/SF2022UserLib/SF2022UserLib.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",

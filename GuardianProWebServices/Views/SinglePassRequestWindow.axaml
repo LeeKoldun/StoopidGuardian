@@ -2,10 +2,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:GuardianProWebServices.ViewModels"
         mc:Ignorable="d"
-        MinWidth="900" MinHeight="600"
+        MinWidth="900" MinHeight="650"
         x:Class="GuardianProWebServices.Views.SinglePassRequestWindow"
         Title="SinglePassRequestWindow">
+    
+    <Design.DataContext>
+        <vm:SingleRequestVM/>
+    </Design.DataContext>
+    
     <Grid>
         <DockPanel Dock="Top"
                    VerticalAlignment="Top">
@@ -36,34 +42,33 @@
         <StackPanel Orientation="Vertical"
                     HorizontalAlignment="Center"
                     VerticalAlignment="Center"
-                    Spacing="20">
+                    Spacing="20"
+                    Margin="20">
             <TextBlock Text="Форма записи на посещение мероприятия"
                        HorizontalAlignment="Center"/>
             <StackPanel Orientation="Horizontal"
                         HorizontalAlignment="Center"
                         Spacing="30">
                 
-                <StackPanel>
-                    <TextBlock Text="Информация для пропуска"
-                               Margin="0 0 0 10"/>
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Информация для пропуска"/>
                     <TextBlock Text="Срок действия заявки"/>
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="С*"/>
-                        <CalendarDatePicker/>
+                        <CalendarDatePicker SelectedDate="{Binding DateFrom}"/>
                         <TextBlock Text="По"/>
-                        <CalendarDatePicker/>
+                        <CalendarDatePicker SelectedDate="{Binding DateTo}"/>
                     </StackPanel>
                     <TextBlock Text="Цель посещения"/>
-                    <ComboBox Width="300"/>
+                    <ComboBox Width="300"
+                              SelectedItem="{Binding VisitTypeList}"/>
                 </StackPanel>
                 
-                <StackPanel>
-                    <TextBlock Text="Принимающая сторона"
-                               Margin="0 0 0 10"/>
-                    <TextBlock Text="Цель посещения"/>
-                    <ComboBox Width="300"
-                              Margin="0 0 0 10"/>
-                    <TextBlock Text="Цель посещения"/>
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Принимающая сторона"/>
+                    <TextBlock Text="Подразделение*"/>
+                    <ComboBox Width="300"/>
+                    <TextBlock Text="ФИО*"/>
                     <ComboBox Width="300"/>
                 </StackPanel>
                 
@@ -88,7 +93,7 @@
                              Grid.Row="1"/>
 
                     <TextBlock Grid.Row="2" 
-                        Text="Отчество*"/>
+                        Text="Отчество"/>
                     <TextBox Grid.Column="1"
                              Grid.Row="2"/>
                     
@@ -98,7 +103,7 @@
                              Grid.Row="3"/>
                     
                     <TextBlock Grid.Row="4"
-                               Text="E-mail"/>
+                               Text="E-mail*"/>
                     <TextBox Grid.Column="1"
                              Grid.Row="4"/>
                 </Grid>
@@ -112,22 +117,22 @@
                     <TextBox Grid.Column="1"/>
                     
                     <TextBlock Grid.Row="1" 
-                               Text="Примечание"/>
+                               Text="Примечание*"/>
                     <TextBox Grid.Column="1"
                              Grid.Row="1"/>
 
                     <TextBlock Grid.Row="2" 
-                               Text="Дата рождения"/>
+                               Text="Дата рождения*"/>
                     <TextBox Grid.Column="1"
                              Grid.Row="2"/>
                     
                     <TextBlock Grid.Row="3" 
-                               Text="Серия"/>
+                               Text="Серия*"/>
                     <TextBox Grid.Column="1"
                              Grid.Row="3"/>
                     
                     <TextBlock Grid.Row="4"
-                               Text="Номер"/>
+                               Text="Номер*"/>
                     <TextBox Grid.Column="1"
                              Grid.Row="4"/>
                 </Grid>
@@ -143,7 +148,8 @@
                             HorizontalContentAlignment="Center"
                             Width="100"
                             Content="Загрузить фото"
-                            FontSize="10"/>
+                            FontSize="10"
+                            Command="{Binding Test}"/>
                 </StackPanel>
             </Grid>
             
@@ -158,11 +164,16 @@
                 <StackPanel Orientation="Horizontal" 
                     HorizontalAlignment="Right"
                     Spacing="20">
-                    <Button Content="Очистить форму"/>
-                    <Button Content="Оформить заявку"/>
+                    <Button Content="Очистить форму"
+                            Command="{Binding ClearForm}"/>
+                    <Button Content="Оформить заявку"
+                            Command="{Binding SendRequset}"/>
                 </StackPanel>
-                
             </Grid>
+                <TextBlock Foreground="Red"
+                           Text="{Binding ErrorMsg}"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
         </StackPanel>
     </Grid>
 </Window>

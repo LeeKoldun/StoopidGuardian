@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mwVVHl6rQwOXZaLRbbfVpyv/o83HUtMhjv86KzfEw1/O0v9rySF+yJ+0gZq+xLVGjV4Mz2hvZhjT4FAJhcJ/DA==",
+  "dgSpecHash": "5LcE6GwKMaBl7fFTMSA3fjer9FVrsfmKGn9A6xbmvT5z/fuL0W7vuWbc7MPzAcIriZoXkbZAkHMdK2aXiKd9oA==",
   "success": true,
   "projectFilePath": "/home/user/RiderProjects/GuardianPro/GuardianProWebServices/GuardianProWebServices.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "/home/user/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.win32.systemevents/4.5.0/microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+    "/home/user/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/user/.nuget/packages/reactiveui/13.2.10/reactiveui.13.2.10.nupkg.sha512",
     "/home/user/.nuget/packages/skiasharp/2.88.1-preview.108/skiasharp.2.88.1-preview.108.nupkg.sha512",
     "/home/user/.nuget/packages/skiasharp.nativeassets.linux/2.88.1-preview.108/skiasharp.nativeassets.linux.2.88.1-preview.108.nupkg.sha512",

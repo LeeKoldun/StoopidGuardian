@@ -27,6 +27,7 @@
 /home/user/.nuget/packages/avalonia.win32/0.10.18/lib/netstandard2.0/Avalonia.Win32.dll
 /home/user/.nuget/packages/avalonia.x11/0.10.18/lib/netstandard2.0/Avalonia.X11.dll
 /home/user/.nuget/packages/dynamicdata/7.1.1/lib/net5.0/DynamicData.dll
+/home/user/RiderProjects/GuardianPro/GuardianProCore/obj/Debug/net7.0/ref/GuardianProCore.dll
 /home/user/.nuget/packages/harfbuzzsharp/2.8.2.1-preview.108/lib/net6.0/HarfBuzzSharp.dll
 /home/user/.nuget/packages/jetbrains.annotations/10.3.0/lib/netstandard1.0/JetBrains.Annotations.dll
 /home/user/.nuget/packages/microsoft.codeanalysis.csharp/3.4.0/lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll
@@ -40,7 +41,9 @@
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.3/ref/net7.0/Microsoft.Win32.Registry.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.3/ref/net7.0/mscorlib.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.3/ref/net7.0/netstandard.dll
+/home/user/.nuget/packages/newtonsoft.json/13.0.3/lib/net6.0/Newtonsoft.Json.dll
 /home/user/.nuget/packages/reactiveui/13.2.10/lib/net5.0/ReactiveUI.dll
+/home/user/RiderProjects/GuardianPro/SF2022UserLib/obj/Debug/net7.0/ref/SF2022UserLib.dll
 /home/user/.nuget/packages/skiasharp/2.88.1-preview.108/lib/net6.0/SkiaSharp.dll
 /home/user/.nuget/packages/splat/10.0.1/lib/net5.0/Splat.dll
 /usr/share/dotnet/packs/Microsoft.NETCore.App.Ref/7.0.3/ref/net7.0/System.AppContext.dll

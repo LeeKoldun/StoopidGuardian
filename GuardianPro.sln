@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProCore", "Guardian
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardianProWebServices", "GuardianProWebServices\GuardianProWebServices.csproj", "{98534457-0C69-4345-B6EC-E0488D5332F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SF2022UserLib", "SF2022UserLib\SF2022UserLib.csproj", "{5AE5A91F-A6A2-46FC-BA0D-263311305200}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{98534457-0C69-4345-B6EC-E0488D5332F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98534457-0C69-4345-B6EC-E0488D5332F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98534457-0C69-4345-B6EC-E0488D5332F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE5A91F-A6A2-46FC-BA0D-263311305200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE5A91F-A6A2-46FC-BA0D-263311305200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE5A91F-A6A2-46FC-BA0D-263311305200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE5A91F-A6A2-46FC-BA0D-263311305200}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

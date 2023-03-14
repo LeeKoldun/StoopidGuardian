@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GuardianProApi.DB.Tables;
+namespace GuardianProCore.Tables;
 
 public class Visitor
 {

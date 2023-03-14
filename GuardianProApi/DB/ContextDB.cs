@@ -1,4 +1,4 @@
-using GuardianProApi.DB.Tables;
+using GuardianProCore.Tables;
 using Microsoft.EntityFrameworkCore;
 
 namespace GuardianProApi.DB;

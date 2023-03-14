@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GuardianProApi.DB.Tables;
+namespace GuardianProCore.Tables;
 
 public class Role
 {
